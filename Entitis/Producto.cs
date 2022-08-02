@@ -32,9 +32,10 @@ namespace Entitis
         #endregion
 
         #region Constructores
-        public Producto()
+        public Producto(int cod, string desc)
         {
-
+            codigo = cod;
+            descripcion = desc;
         }
         public Producto(int cod, string desc, int st)
         {
@@ -45,6 +46,7 @@ namespace Entitis
 
 
         }
+
         #endregion
 
         #region Metodos

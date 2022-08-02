@@ -248,6 +248,7 @@
             this.Controls.Add(this.tabC_Producto);
             this.Name = "FormProductos";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FormProductos_Load);
             this.tabC_Producto.ResumeLayout(false);
             this.tabC_Control.ResumeLayout(false);
             this.tabC_Control.PerformLayout();
