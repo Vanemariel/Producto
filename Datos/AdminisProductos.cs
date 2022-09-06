@@ -20,9 +20,7 @@ namespace Datos
                 if (accion == "Alta")
                     orden = "insert into Producto values (" + objProducto.p_descripcion + ",'" + objProducto.p_codigo + "', "+ objProducto.p_stock + "); ";
                 
-                
-                if (accion == "Modificar")
-                    orden = "update Producto set Descripcion='" + objProducto.p_descripcion + "',Stock=" objProducto.p_stock + "where Codigo = " + objProducto.p_codigo + "; ";
+              
 
                 if (accion == "Borrar")
                     orden = "delete into Producto values (" + objProducto.p_descripcion + ",'" + objProducto.p_stock + "',); ";
