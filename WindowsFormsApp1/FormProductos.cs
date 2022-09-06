@@ -190,6 +190,11 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void tabC_Control_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

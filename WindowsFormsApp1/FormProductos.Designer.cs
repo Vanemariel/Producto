@@ -1,4 +1,6 @@
-﻿namespace WindowsFormsApp1
+﻿using System;
+
+namespace WindowsFormsApp1
 {
     partial class FormProductos
     {
@@ -79,6 +81,7 @@
             this.tabC_Control.TabIndex = 0;
             this.tabC_Control.Text = "Carga de Productos";
             this.tabC_Control.UseVisualStyleBackColor = true;
+            this.tabC_Control.Click += new System.EventHandler(this.tabC_Control_Click_1);
             // 
             // lblCodigo
             // 
@@ -106,7 +109,6 @@
             this.btCargar.TabIndex = 3;
             this.btCargar.Text = "Cargar";
             this.btCargar.UseVisualStyleBackColor = true;
-            this.btCargar.Click += new System.EventHandler(this.btCargar_Click_1);
             // 
             // txtStock
             // 
@@ -280,6 +282,7 @@
         private System.Windows.Forms.Label lblDescripMov;
         private System.Windows.Forms.Label lblCodigoMov;
         private System.Windows.Forms.DataGridView dgv_Producto;
+        private EventHandler btCargar_Click_1;
     }
 }
 

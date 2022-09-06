@@ -16,7 +16,7 @@ namespace Negocios
 
         public int abmProductos(string accion, Producto objProducto)
         {
-            return DatosObjProducto.abmProductos(accion, objProducto);
+            return DatosObjProducto.abmProductos(accion,objProducto);
         }
         public DataSet listadoProductos(string cual)
         {

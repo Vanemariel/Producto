@@ -11,7 +11,7 @@ namespace Datos
 {
     public class AdminisProductos : DatosConexion
     {
-        public int abmProductos(string accion, AdminisProductos objProducto)
+        public int abmProductos(string accion, Producto objProducto)
         {
             {
                 int resultado = -1;//controlar que se realice la operacion con exito
@@ -28,7 +28,7 @@ namespace Datos
                     orden = "delete into Producto values (" + objProducto.p_descripcion + ",'" + objProducto.p_stock + "',); ";
                 // falta la orden de borrar
 
-
+                 
                 SqlCommand cmd = new SqlCommand(orden, conexion);
                 
                 try
